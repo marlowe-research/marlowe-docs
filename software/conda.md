@@ -32,7 +32,7 @@ After you've done this, mamba will be added to your path and `pip install` will 
 
 ## Installing a Conda environment in a different location
 
-Home directories have a quota of 15GB by default. This means that even small conda environments can run into quota issues rather quickly.
+Home directories have a quota of 32GB by default. This means that even small conda environments can run into quota issues rather quickly.
 
 To combat this, we recommend setting up your conda environment in a separate directory. You can do this with the `--prefix` command.
 
@@ -40,6 +40,6 @@ For example:
 ```
 conda create --prefix /projects/m223813/mycondadir numpy=1.21
 ```
-The above will create a new conda environment in the `/projects/m223813/mycondadir` folder with numpy 1.21. Since it's not being installed into your home directory, you don't have to worry about the same 15GB quota as before!
+The above will create a new conda environment in the `/projects/m223813/mycondadir` folder with numpy 1.21. Since it's not being installed into your home directory, you don't have to worry about the same 32GB quota as before!
 
 You can also use the `--prefix` argument with `conda env` and other commands.

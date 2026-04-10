@@ -14,7 +14,7 @@ To load Apptainer, run `apptainer` directly from your shell.
 
 By default, Apptainer stores all of a user's containers in their home directory.
 
-Since a user's home directory on Marlowe is only 15GB, that space can quickly be used up and the quota limit will block you from pulling and running containers.
+Since a user's home directory on Marlowe is only 32GB, that space can quickly be used up and the quota limit will block you from pulling and running containers.
 
 To get past this, you can set your Apptainer Cache directory to a different location. Learn more about the [filesystems on Marlowe]({{ '/documentation/getting-started/filesystems/' | relative_url }}).
 

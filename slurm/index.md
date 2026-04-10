@@ -79,11 +79,11 @@ The suffix will be something like **pm**01 for a medium project, or **pl**01 for
 
 ## Partition Limits
 
-**Hero**: 25 nodes, 24 hours
+**Hero**: 31 nodes, 24 hours
 
 **Batch**: 16 nodes, two days
 
-**Preempt**: 8 nodes, 12 hours
+**Preempt**: no node limit, 12 hours
 
 <div class="docs-callout docs-callout-note">
 <strong>Note</strong>
